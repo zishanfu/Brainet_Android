@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CSE535Project_Group24</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Enter Username: S001~S010</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_to_register">Register</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="hello_world">Welcome!</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="title_activity_video">VideoActivity</string>
+
+    <string name="intro">BraiNet Project: This project is about using brain signals to do privacy management for smartphones.</string>
+</resources>

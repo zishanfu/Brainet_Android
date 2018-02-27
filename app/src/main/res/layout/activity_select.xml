@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.susanfu.mainActivity.SelectActivity">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/intro"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/fogbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Fog Server" />
+
+    <Button
+        android:id="@+id/cloudbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fogbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Cloud Server" />
+
+    <Button
+        android:id="@+id/testbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cloudbtn"
+        android:layout_alignStart="@+id/cloudbtn"
+        android:layout_below="@+id/cloudbtn"
+        android:layout_marginTop="15dp"
+        android:text="Adaptive Offloading (Time-consuming)" />
+
+    <Button
+        android:id="@+id/videobtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/testbtn"
+        android:layout_alignStart="@+id/testbtn"
+        android:layout_below="@+id/testbtn"
+        android:layout_marginTop="15dp"
+        android:text="Relax Video" />
+
+    <TextView
+        android:id="@+id/testRes"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/videobtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Test Result:" />
+
+
+</RelativeLayout>
